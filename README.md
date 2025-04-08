@@ -1,1 +1,1 @@
-# W2_LatihanPBO
+# Praktikum_PBO
