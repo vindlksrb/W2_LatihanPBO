@@ -2,10 +2,12 @@ package arraylist;
 
 import java.util.ArrayList;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
 
-        String[] hari = new String[7]; //deklarasi array biasa di java
+        String[] hari = new String[7]; 
 
         hari[0] = "Senin";
         hari[1] = "Selasa";
@@ -13,11 +15,12 @@ public class Main {
         hari[3] = "Kamis";
         hari[4] = "Jum'at";
         hari[5] = "Sabtu";
-        hari[6] = "Ahad";
+        hari[6] = "Ibadah";
 
         System.out.println(hari[2]);
 
-        for (String h : hari){
+        for (String h : hari)
+        {
             System.out.println(h);
         }
 
@@ -30,7 +33,7 @@ public class Main {
         days.add("Kamis");
         days.add("Jum'at");
         days.add("Sabtu");
-        days.add("Ahad");
+        days.add("Ibadah");
 
         System.out.println(days.get(0));
 
@@ -42,7 +45,8 @@ public class Main {
 
         System.out.println("============================");
 
-        for (String d : days){
+        for (String d : days)
+        {
             System.out.println("Hari: " + d);
         }
 
